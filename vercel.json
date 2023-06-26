@@ -11,8 +11,7 @@
       "headers": [
         {
           "key": "Content-Type",
-          "value": "image/svg+xml",
-          "contentType": true
+          "value": "image/svg+xml"
         }
       ]
     }
