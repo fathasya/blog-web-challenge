@@ -54,7 +54,7 @@ const PostDetail = ({ post, posts, comments: apiComments, user }) => {
       <div className='flex overflow-auto text-xs bg-gray-50 border-gray-500 border-l-4 pl-2 text-gray-900'>
         {posts.map((post, i) => (
           <div key={post.id} className='bg-gray-50 px-1 py-2 md:space-x-4'>
-            <Link href={`/posts/${post.id}`} className='flex flex-row items-center overflow-auto'>
+            <Link href={`/posts/${post.id}`} className='flex flex-row items-center space-x-2 overflow-auto'>
               <p className='text-xs'>News{i+1}</p>
               {i !== posts.length - 1 && (
                 <ChevronIcon />
