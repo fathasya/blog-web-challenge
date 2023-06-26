@@ -1,0 +1,5 @@
+export { default as InputSearch } from './InputSearch'
+export { default as InputComment } from './InputComment'
+export { default as Buttons } from './Buttons'
+export { default as ButtonSubmit } from './ButtonSubmit'
+export { default as Inputs } from './Inputs'
