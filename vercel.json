@@ -10,10 +10,10 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Content-Type",
-          "value": "image/svg+xml"
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     }
   ]
-}  
+}
