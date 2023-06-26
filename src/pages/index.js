@@ -23,7 +23,7 @@ const HomePage = () => {
         <div className='flex overflow-auto text-xs bg-gray-50 border-gray-500 border-l-4 pl-2 text-gray-900'>
           {posts.map((post, i) => (
             <div key={post.id} className='bg-gray-50 px-1 py-2 md:space-x-4'>
-              <Link href={`/posts/${post.id}`} className='flex flex-row overflow-auto'>
+              <Link href={`/posts/${post.id}`} className='flex flex-row items-center overflow-auto'>
                 <p className='text-xs'>News{i+1}</p>
                 {i !== posts.length - 1 && (
                   <ChevronIcon />
